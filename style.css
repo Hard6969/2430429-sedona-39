@@ -1,36 +1,58 @@
+/* navigation & hero*/
+
 body {
   margin: 0;
   padding: 0;
   width: 100%;
 }
+
+.shadow-decor {
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+
 header{
   display: block;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 
 }
 
+.logo {
+  position: absolute;
+  top: 0;
+  left: -88px;
+}
+
 .navbar {
-  width: 1200px;
+  position: relative;
+  left: 88px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  width: 992px;
   height: 64px;
   background-color: rgba(255, 255, 255, 1);
   margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .head-navigation{
   display: flex;
   list-style: none;
   gap: 8px;
-  margin-right: 158px;
 }
 .navigation-item {
   font-family: "PT Sans", serif ;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
-  margin: 20px 16px;
+  margin: 16px 20px;
 }
 
 .navigation-item a {
@@ -40,13 +62,14 @@ header{
 }
 
 .head-navigation li {
-  margin-left: 158px;
+  margin-left: 20px;
+}
+
+.head-navigation:first-child {
+  margin-left: 0;
 }
 
 .header-button {
-  position: relative;
-  float: right;
-  margin-top: -50px;
   height: 38px;
   width: 160px;
   background-color: #756157;
@@ -86,4 +109,35 @@ header{
   margin-top: 25px;
   margin-right: auto;
   margin-left: auto;
+}
+.hero-h1 {
+  text-align: center;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+/*main*/
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-text-content {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.priority-list {
+  display: grid;
+  list-style: none;
 }
