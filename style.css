@@ -154,6 +154,7 @@ main {
   height: 385px;
   grid-column: 2/3;
   grid-row: 1;
+  background: url("img/photo-1.jpg");
 }
 
 .priority-list-image:last-child {
@@ -161,6 +162,7 @@ main {
   grid-column: 1/2;
   width: 800px;
   height: 385px;
+  background: url("img/photo-2.jpg");
 }
 
 .priority-list-item {
