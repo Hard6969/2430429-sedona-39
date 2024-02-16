@@ -137,27 +137,30 @@ main {
 }
 
 .priority-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 385px 385px 385px;
   list-style: none;
   width: 1200px;
   height: 1155px;
   margin: 0;
   padding: 0;
-  gap: 0;
+  grid-gap: 0;
 
 }
 
 .priority-list-image {
   width: 800px;
   height: 385px;
-  background: url("img/photo-1.jpg") no-repeat;
+  grid-row: 1;
+  grid-column: 2 / 3;
 }
 
 .priority-list-image-2{
   width: 800px;
   height: 385px;
-  background: url("img/photo-2.jpg") no-repeat;
+  grid-row: 3;
+  grid-column: 1 / 2;
 }
 
 .priority-list-item {
