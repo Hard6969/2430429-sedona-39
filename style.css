@@ -144,7 +144,7 @@ main {
   height: 1155px;
   margin: 0;
   padding: 0;
-  grid-gap: 0;
+  gap: 0;
 
 }
 
