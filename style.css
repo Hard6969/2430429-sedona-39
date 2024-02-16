@@ -138,10 +138,9 @@ main {
 }
 
 .priority-list {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
-  grid-template-columns: 400px 400px 400px;
-  grid-template-rows:  400px 400px 400px;
   width: 1200px;
   height: 1155px;
   margin: 0 auto;
@@ -152,14 +151,10 @@ main {
 .priority-list-image {
   width: 800px;
   height: 385px;
-  grid-column: 2/3;
-  grid-row: 1;
   background: url("img/photo-1.jpg") no-repeat;
 }
 
 .priority-list-image-2{
-  grid-row: 3;
-  grid-column: 1/2;
   width: 800px;
   height: 385px;
   background: url("img/photo-2.jpg") no-repeat;
