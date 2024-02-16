@@ -81,9 +81,6 @@ header{
   border: 0;
 }
 
-.hero-top {
-  width: 100%;
-}
 
 .hero {
   background-image: url("img/hero-background.svg");
