@@ -39,6 +39,7 @@ header{
   display: flex;
   list-style: none;
   gap: 8px;
+  margin: 0;
 }
 .navigation-item {
   font-family: "PT Sans", serif ;
