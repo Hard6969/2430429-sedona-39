@@ -30,18 +30,13 @@ header{
 
 .navbar {
   position: relative;
-  left: 88px;
   display: flex;
-  align-items: center;
   align-content: center;
   justify-content: space-between;
   width: 992px;
   height: 64px;
   background-color: rgba(255, 255, 255, 1);
-  margin-left: 70px;
-  margin-right: 70px;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0 auto;
 }
 
 .head-navigation{
