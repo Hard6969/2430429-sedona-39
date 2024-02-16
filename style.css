@@ -140,4 +140,6 @@ main {
 .priority-list {
   display: grid;
   list-style: none;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows:  400px 400px 400px;
 }
