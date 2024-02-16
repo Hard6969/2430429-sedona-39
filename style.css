@@ -144,10 +144,13 @@ main {
   grid-template-rows:  400px 400px 400px;
   width: 1200px;
   height: 1155px;
+  margin: 0 auto;
 
 }
 
 .priority-list-image {
+  width: 800px;
+  height: 385px;
   grid-column: 2/3;
   grid-row: 1;
 }
@@ -155,4 +158,6 @@ main {
 .priority-list-image:last-child {
   grid-row: 3;
   grid-column: 1/2;
+  width: 800px;
+  height: 385px;
 }
