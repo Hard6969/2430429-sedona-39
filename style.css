@@ -22,6 +22,7 @@ header{
 .logo {
   position: absolute;
   top: 0;
+  margin-right: 20px;
 }
 
 .navbar {
@@ -57,9 +58,8 @@ header{
   margin-left: 20px;
 }
 
-.head-navigation:first-child {
+.head-navigation li:first-child {
   margin-left: 0;
-  margin-right: 20px;
 }
 
 .header-button {
