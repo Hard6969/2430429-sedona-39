@@ -142,6 +142,9 @@ main {
   list-style: none;
   grid-template-columns: 400px 400px 400px;
   grid-template-rows:  400px 400px 400px;
+  width: 1200px;
+  height: 1155px;
+
 }
 
 .priority-list-image {
