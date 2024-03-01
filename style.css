@@ -13,41 +13,56 @@ body {
 }
 
 header{
-  display: block;
+  display: flex;
   width: 1200px;
-  margin: 0 auto;
-  min-width: 64px;
-
+  margin: 0;
+  min-height: 64px;
+  flex-direction: column;
 }
 
 .navbar {
   position: relative;
-  display: grid;
-  grid-template-columns: 1fr auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 20px;
-  width: 100%;
+  max-width: 1200px;
+  min-height: 64px;
   background-color: rgba(255, 255, 255, 1);
-  margin: auto 0;
+  align-items: center;
+  margin: 0;
 }
 
 .head-navigation {
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   gap: 27px;
   list-style: none;
-  justify-content:flex-start ;
-  margin: auto 0;
-  min-height: 64px;
+  justify-content:space-between;
+  margin: 0;
+  max-width: 610px;
+  align-items: center;
 }
 
 .logo {
-  margin-right: 20px;
-  margin-bottom: -20px;
+  position: absolute;
+  align-self: end;
+  top: 0;
+  z-index: 1;
+}
+
+.navigation-item{
+  min-width: 100px;
 }
 
 .user-nav {
   display: flex;
+  align-self: center;
+}
+
+.header-button{
+  width: 92px;
+  height: 20px;
 }
 
 .hero {
@@ -112,8 +127,6 @@ main {
 .priority-list {
   display: flex;
   flex-wrap: wrap;
-  grid-template-columns: 400px 400px 400px;
-  grid-template-rows: 385px 385px 385px;
   list-style: none;
   max-width: 1200px;
   min-height: 1155px;

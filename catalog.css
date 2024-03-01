@@ -3,21 +3,6 @@ body {
   padding: 0;
   width: 100%;
 }
-.shadow-decor {
-  width: 1200px;
-  margin: 0 auto;
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
-}
-header{
-  display: block;
-  width: 1200px;
-  margin: 0 auto;
-
-}
-
-.logo {
-  margin-right: 20px;
-}
 
 .hero {
   background-image: url("img/hero-catalog.jpeg");
