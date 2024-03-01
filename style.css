@@ -6,6 +6,31 @@ body {
   width: 100%;
 }
 
+.shadow-decor {
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+header{
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 64px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
 .hero {
   background-image: url("img/hero-background.svg");
   background-repeat: no-repeat;
