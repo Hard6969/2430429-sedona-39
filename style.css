@@ -31,6 +31,14 @@ header{
   background-color: rgba(255, 255, 255, 1);
   align-items: center;
   margin: 0;
+  padding: 0 70px;
+}
+
+.logo {
+  position: absolute;
+  align-self: end;
+  top: 0;
+  z-index: 1;
 }
 
 .head-navigation {
@@ -40,15 +48,9 @@ header{
   list-style: none;
   justify-content:space-between;
   margin: 0;
-  max-width: 610px;
+  margin-left: 30px;
+  max-width: 510px;
   align-items: center;
-}
-
-.logo {
-  position: absolute;
-  align-self: end;
-  top: 0;
-  z-index: 1;
 }
 
 .navigation-item{
@@ -96,7 +98,7 @@ header{
 }
 
 .hero-h1 {
-  margin-top: 70px;
+  margin-top: 80px;
   text-align: center;
   text-transform: uppercase;
 }
