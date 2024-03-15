@@ -117,7 +117,7 @@ header{
 
 .hero-h1 {
   font-family: "PT Sans";
-  margin-top: 80px;
+  margin-top: 151px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -189,6 +189,7 @@ main {
 .priority-list-item {
   display: flex;
   position: relative;
+  gap: 62px;
   flex-direction: column;
   justify-content: center;
   width: 400px;
@@ -228,11 +229,19 @@ main {
 
 .cards-menu-item {
   display: flex;
+  gap: 30px;
   flex-direction: column;
   justify-content: center;
+  justify-items: center;
   width: 400px;
   height: 385px;
   margin: 0;
+}
+
+.adv-icon {
+  width: 75px;
+  height: 72px;
+  margin: 0 auto;
 }
 
 .cards-menu-item:nth-child(odd) {
