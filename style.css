@@ -195,6 +195,16 @@ main {
   width: 1200px;
   margin: 0 auto;
 }
+.main-cards-menu {
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+
+.cards-menu-item {
+  width: 400px;
+  height: 385px;
+}
 
 .main-h2 {
   text-align: center;
