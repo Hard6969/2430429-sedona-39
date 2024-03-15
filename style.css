@@ -143,10 +143,15 @@ main {
 
 .main-h2 {
   font-family: "PT Sans";
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .main-text {
   font-family: "PT Sans";
+  text-align: center;
+  margin: 0;
 }
 
 .main-text-content {
@@ -208,24 +213,28 @@ main {
 
 .main-cards {
   width: 1200px;
-  margin: 0 auto;
+  margin: 0;
 }
 .main-cards-menu {
   display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   list-style: none;
   width: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 385px;
 }
 
 .cards-menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 400px;
   height: 385px;
+  margin: 0;
 }
 
-.main-h2 {
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.main-text {
-  text-align: center;
+.cards-menu-item:nth-child(odd) {
+  background-color: rgba(131, 179, 211, 0.12);
 }
