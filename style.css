@@ -75,12 +75,55 @@ header{
 .user-nav {
   display: flex;
   align-self: center;
+  gap: 20px;
+}
+
+.user-nav-item {
+  position: relative;
+  width: 44px;
+  height: 64px;
+}
+
+.serach {
+  width: 20px;
+  height: 20px;
+  background: url("img/icons.png") no-repeat;
+  background-position: -75px 0px;
+}
+
+.count {
+  width: 20px;
+  height: 20px;
+  background: url("img/icons.png") no-repeat;
+  background-position: -100px 0px;
+}
+
+.count:before {
+  content: '12';
+  position: absolute;
+  bottom: 11px;
+  left: 8px;
+  background: #7DB54F;
+  border-radius: 10px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 10px;
+  font-family: "PT Sans";
+  padding: 5px;
 }
 
 .header-button{
   font-family: "PT Sans";
-  width: 92px;
-  height: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #756157;
+  color: #ffffff;
+  width: 160px;
+  height: 36px;
+  border-radius: 4px;
+  text-transform: uppercase;
 }
 
 .hero {
@@ -146,18 +189,48 @@ main {
   text-align: center;
   text-transform: uppercase;
   margin: 0;
+  padding-bottom: 10px;
 }
 
 .main-text {
   font-family: "PT Sans";
   text-align: center;
   margin: 0;
+  padding-top: 10px;
 }
 
 .main-text-content {
   width: 1200px;
   margin: 0 auto;
   text-align: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.main-text-content-bottom {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.main-button {
+  font-family: "PT Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  width: 376px;
+  background-color: #756157;
+  border-radius: 4px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 8px 50px;
+  margin-top: 54px;
 }
 
 .priority-list {
