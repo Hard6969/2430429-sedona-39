@@ -67,9 +67,20 @@ header{
   line-height: 24px;
   color: #000000;
   text-decoration: none;
-  border-bottom: 2px solid #756257;
   padding-bottom: 18px;
   z-index: 2;
+}
+
+.navigation-item a:active {
+  border-bottom: 2px solid #756257;
+}
+
+.navigation-item a:hover {
+  border-bottom: 2px solid #756257;
+}
+
+.marked {
+  border-bottom: 2px solid #756257;
 }
 
 .user-nav {
