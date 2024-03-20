@@ -86,7 +86,7 @@ header{
   height: 64px;
 }
 
-.serach {
+.search {
   width: 20px;
   height: 20px;
   background: url("img/icons.png") no-repeat;
@@ -102,8 +102,7 @@ header{
   border: none;
 }
 
-.count:before {
-  content: '12';
+.like-count {
   position: absolute;
   top: 11px;
   left: 8px;
@@ -113,9 +112,10 @@ header{
   text-align: center;
   color: #ffffff;
   font-size: 10px;
-  line-height: 10px;
+  line-height: 20px;
   font-family: "PT Sans";
-  padding: 5px;
+  min-width: 20px;
+  min-height: 20px;
 }
 
 .header-button{
@@ -323,4 +323,104 @@ main {
 
 .cards-menu-item:nth-child(odd) {
   background-color: rgba(131, 179, 211, 0.12);
+}
+
+/*footer*/
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url("img/subscribe-back.jpeg") no-repeat #82B3D3;
+  color: #ffffff;
+}
+
+
+/* modal*/
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(242, 242, 242, 0.8);
+}
+
+.modal {
+  position: relative;
+  margin: auto;
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.modal-auth {
+  width: 360px;
+}
+
+.modal-close-button {
+  position: absolute;
+  padding: 0;
+  top: 0;
+  right: 0;
+  width: 56px;
+  height: 44px;
+  background-color: #ffffff;
+  border: none;
+  background-image: url("img/modal-close.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.modal-title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.auth-form .field-group {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.auth-form-user-options {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+}
+
+.auth-form-user-options .control-label {
+  font-weight: 400;
+}
+
+.auth-form-recovery {
+  line-height: 22px;
+  color: #000000;
+}
+
+.auth-form-button {
+  width: 360px;
+  margin-bottom: 16px;
+}
+
+.auth-form .button + .button {
+  margin: 0;
+}
+
+.auth-form-register {
+  width: 360px;
+  color: #000000;
+  background-color: #ffffff;
+}
+.modal-container-close {
+  display: none;
 }
