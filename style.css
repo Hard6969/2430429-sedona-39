@@ -348,6 +348,17 @@ main {
   color: #ffffff;
 }
 
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+
+.social {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 /* modal*/
 
