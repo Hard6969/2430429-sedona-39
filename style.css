@@ -385,15 +385,64 @@ main {
 
 .about {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 0 70px;
+  min-height: 120px;
 }
 
 .social {
-  display: flex;
+  display: inline-flex;
   list-style: none;
+  align-items: center;
+  justify-content: flex-start;
   margin: 0;
   padding: 0;
+}
+
+.social-icon-tg {
+  min-height: 40px;
+  min-width: 47px;
+  background: url("img/SocTG.png") no-repeat center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.soc-icon {
+  display: none;
+}
+
+.social-icon-vk {
+  min-height: 40px;
+  min-width: 47px;
+  background: url("img/SocVK.png") no-repeat center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.social-icon-ut {
+  min-height: 40px;
+  min-width: 47px;
+  background: url("img/SocUT.png") no-repeat center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.contact-tel {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.academy-logo {
+  min-width: 115px;
+  min-height: 33px;
 }
 
 /* modal*/
