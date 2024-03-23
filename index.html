@@ -94,9 +94,34 @@
           <p><span>Мы не можем отправить вас в прошлое.</span></p>
           <p class="field-group">
             <label class="visually-hidden" for="auth-password">Дата выезда</label>
-            <input class="auth-form-field field" type="password" id="auth-password" name="auth-password" placeholder="1 сентября 2021">
+            <input class="auth-form-field field" type="text" id="auth-password" name="auth-password" placeholder="1 сентября 2021">
           </p>
           <p><span>На эти даты есть свободные номера. Пока есть.</span></p>
+          <div class="modal-inputs">
+            <p class="parents">
+            <label class="visually-hidden" for="parents">Взрослые:</label>
+            <input class="parents" type="text" id="parents" placeholder="2">
+            </p>
+            <p class="childrens">
+            <label class="visually-hidden" for="childrens">Дети:</label>
+
+              <span class="tooltip">
+            <button class="tooltip-toggle" type="button">
+            <svg class="tooltip-icon" width="1" height="9" viewBox="0 0 1 9" fill="currentColor"
+                 xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#a)">
+            <path d="M0 9h1V3H0v6ZM1 0H0v1h1V0Z" />
+            </g>
+            </svg>
+            </button>
+            </span>
+              <span class="tooltip-text">Укажите количество детей, которые будут с вами, возраст
+              которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+              </span>
+
+            <input class="parents" type="text" id="childrens" placeholder="2">
+            </p>
+          </div>
           <button class="button auth-form-button">Найти</button>
         </form>
       </section>
