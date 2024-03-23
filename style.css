@@ -392,31 +392,31 @@ main {
 }
 
 .social {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   align-items: center;
   justify-content: flex-start;
   margin: 0;
   padding: 0;
+  width: 200px;
+}
+
+.social img {
+  padding-top: 12px;
 }
 
 .social-icon-tg {
   min-height: 40px;
   min-width: 47px;
-  background: url("img/SocTG.png") no-repeat center;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-.soc-icon {
-  display: none;
-}
-
 .social-icon-vk {
   min-height: 40px;
   min-width: 47px;
-  background: url("img/SocVK.png") no-repeat center;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -425,7 +425,6 @@ main {
 .social-icon-ut {
   min-height: 40px;
   min-width: 47px;
-  background: url("img/SocUT.png") no-repeat center;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -460,21 +459,20 @@ main {
 .modal {
   position: relative;
   margin: auto;
-  padding: 40px;
+  padding: 64px 70px 64px 70px;
   background-color: #ffffff;
-}
-
-.modal-auth {
-  width: 360px;
+  border-radius: 30px;
+  width: 717px;
+  min-height: 576px;
 }
 
 .modal-close-button {
   position: absolute;
   padding: 0;
-  top: 0;
-  right: 0;
-  width: 56px;
-  height: 44px;
+  top: 64px;
+  right: 52px;
+  width: 52px;
+  height: 52px;
   background-color: #ffffff;
   border: none;
   background-image: url("img/modal-close.png");
@@ -485,10 +483,10 @@ main {
 
 .modal-title {
   margin: 0;
-  margin-bottom: 24px;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-size: 32px;
-  line-height: 35px;
+  margin-bottom: 64px;
+  font-family: "PT Sans";
+  font-size: 30px;
+  line-height: 36px;
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
