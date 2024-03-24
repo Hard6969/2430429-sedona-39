@@ -94,6 +94,9 @@ body {
 }
 
 .card-buttons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-family: "PT Sans";
   font-weight: 700;
   font-size: 16px;
@@ -103,7 +106,8 @@ body {
   text-transform: uppercase;
   border-radius: 4px;
   border: none;
-  padding: 8px 26px 8px 26px;
+  height: 36px;
+  width: 140px;
   color: #ffffff;
 }
 
@@ -117,8 +121,14 @@ body {
   text-transform: uppercase;
   border-radius: 4px;
   border: none;
-  padding: 8px 20px 8px 20px;
+  height: 36px;
   color: #ffffff;
+  width: 140px;
+}
+
+.card-buttons .adding {
+  background-color: #7DB54F;
+  width: 140px;
 }
 
 .rating {
@@ -135,12 +145,13 @@ body {
   text-transform: uppercase;
   border-radius: 4px;
   border: none;
-  padding: 9px 22px 8px 22px;
   color: #333333;
   font-family: "PT Sans";
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  width: 140px;
+  height: 36px;
 }
 
 .rating-stars {
@@ -150,6 +161,8 @@ body {
   margin: 0;
   padding: 0;
   gap: 6px;
+  width: 140px;
+  height: 37px;
 }
 
 /*footer*/
