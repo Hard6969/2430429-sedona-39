@@ -42,9 +42,28 @@
             <li><input type="radio" id="motel"><label for="motel">&nbsp;Мотель</label></li>
             <li><input type="radio" id="apartment"><label for="apartment">&nbsp;Апартаменты</label></li>
           </ul>
-          <div class="price"></div>
+          <div class="price">
+            <div class="price-wrapper">
+              <label class="range-cost">
+                <span class="range-cost-text">от</span>
+                <input class="range-input min-price" type="number" value="0" name="min-price">
+              </label>
+              <label class="range-cost">
+                <span class="range-cost-text">до</span>
+                <input class="range-input max-price" type="number" value="9000" name="max-price">
+              </label>
+            </div>
+            <div class="range-bar">
+              <button class="range-toggle toggle-min" type="button">
+                <span class="visually-hidden">Минимальная цена</span>
+              </button>
+              <button class="range-toggle toggle-max" type="button">
+                <span class="visually-hidden">Максимальная цена</span>
+              </button>
+            </div>
+          </div>
           <div class="price-buttons">
-            <button type="button" class="filter-button">Применить</button>
+            <button type="submit" class="filter-button">Применить</button>
             <button type="reset" class="filter-reset">Сбросить</button>
           </div>
         </div>

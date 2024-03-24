@@ -98,6 +98,109 @@ body {
   justify-content: flex-end;
 }
 
+.range-bar {
+  position: absolute;
+  width: 226px;
+  height: 4px;
+  background-color: #FFFFFF;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.toggle-min {
+  top: -8px;
+  left: 0;
+}
+
+.toggle-max {
+  top: -8px;
+  right: 0;
+}
+
+.range-toggle:focus {
+  border: 3px solid #83B3D3;
+  outline: none;
+  opacity: 80%
+}
+
+.range-toggle:active {
+  border: 2px solid #83B3D3;
+  outline: none;
+  opacity: 80%
+}
+
+.price-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2px;
+  margin-bottom: 44px;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.range-input[type="number"] {
+  appearance: textfield;
+}
+
+.range-input {
+  font-family: "PT Sans", sans-serif;
+  width: 143px;
+  height: 48px;
+  border: 0;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.range-input:hover {
+  background-color: #E6E6E6;
+}
+
+.range-input:focus {
+  outline: 3px solid #83B3D3;
+  background-color: #E6E6E6;
+}
+
+.range-cost-text {
+  position: absolute;
+  color: #000000;
+  right: 20px;
+  top: 13px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 30%;
+}
+
+.range-cost {
+  position: relative;
+  text-transform: lowercase;
+  line-height: 24px;
+}
+
+.range-cost-text {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 20px;
+  box-sizing: border-box;
+}
+
 /* main*/.
 
 .catalog-main {
