@@ -492,6 +492,16 @@ main {
   text-transform: uppercase;
 }
 
+.auth-form {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.childrens {
+}
+
 .auth-form .field-group {
   margin: 0;
   margin-bottom: 16px;
@@ -560,7 +570,7 @@ main {
 }
 
 .tooltip-text {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans";
   background-color: #333333;
   color: #FFFFFF;
   font-size: 16px;
@@ -575,8 +585,8 @@ main {
 
 .tooltip {
   position: absolute;
-  margin-top: 24px;
-  margin-left: 22px;
+  top: 24px;
+  left: 22px;
   width: 25px;
   height: 25px;
 }
