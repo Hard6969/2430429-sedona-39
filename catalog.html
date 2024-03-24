@@ -30,10 +30,23 @@
       <h1>Гостиницы Седоны</h1>
         <p class="breadcrubs"><a href="index.html"><img src="img/icon-home.png"></></a> > <a href="#" class="catalog">Гостиницы</a></p>
         <div class="filter">
-          <div class="checkbox"></div>
-          <div class="radio"></div>
+          <ul class="checkbox">
+            <li>Инфраструктура</li>
+            <li><input type="checkbox" id="swim"><label for="swim">&nbsp;Бассейн</label></li>
+            <li><input type="checkbox" id="parking"><label for="parking">&nbsp;Парковка</label></li>
+            <li><input type="checkbox" id="wi-fi"><label for="wi-fi">&nbsp;Wi-Fi</label></li>
+          </ul>
+          <ul class="radio">
+            <li>Тип жилья</li>
+            <li><input type="radio" id="host"><label for="host">&nbsp;Гостиница</label></li>
+            <li><input type="radio" id="motel"><label for="motel">&nbsp;Мотель</label></li>
+            <li><input type="radio" id="apartment"><label for="apartment">&nbsp;Апартаменты</label></li>
+          </ul>
           <div class="price"></div>
-          <div class="price-buttons"></div>
+          <div class="price-buttons">
+            <button type="button" class="filter-button">Применить</button>
+            <button type="reset" class="filter-reset">Сбросить</button>
+          </div>
         </div>
       </section>
     </div>
