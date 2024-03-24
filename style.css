@@ -500,6 +500,8 @@ main {
 }
 
 .childrens {
+  position: relative;
+  display: inline-flex;
 }
 
 .auth-form .field-group {
