@@ -58,6 +58,13 @@ body {
   line-height: 21px;
 }
 
+.filter {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
 /* main*/.
 
 .catalog-main {
