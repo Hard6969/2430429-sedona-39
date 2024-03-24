@@ -13,7 +13,7 @@ body {
   background-position: top;
   width: 100%;
   height: 767px;
-  margin-bottom: 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -49,7 +49,7 @@ body {
   gap: 10px;
 }
 
-.catalog-link {
+.catalog {
   color: #ffffff;
   text-decoration: none;
   font-family: "PT Sans";
@@ -69,8 +69,7 @@ body {
 
 .catalog-main {
   margin: 0;
-  width: 100%;
-         }
+  width: 100%;}
 
 .catalog-cards {
   margin: 0;
