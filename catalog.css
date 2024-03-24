@@ -4,6 +4,8 @@ body {
   width: 100%;
 }
 
+/*hero*/
+
 .hero {
   position: relative;
   background-image: url("img/hero-catalog.jpeg");
@@ -14,6 +16,36 @@ body {
   padding-top: 60px;
   margin-bottom: 0;
 }
+
+/* main*/.
+
+.catalog-main {
+  margin: 0;
+  width: 100%;
+         }
+
+.catalog-cards {
+  margin: 0;
+  padding: 0 70px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 20px;
+}
+
+.catalog-item {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+  width: 340px;
+  height: 438px;
+}
+
+/*footer*/
+
 .footer-content {
   background: #ffffff;
   color: #000000;
@@ -22,3 +54,4 @@ body {
 .input-email {
   background-color: #F2F2F2;
 }
+
