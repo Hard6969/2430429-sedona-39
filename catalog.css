@@ -273,6 +273,85 @@ main {
   display: flex;
   margin: 0;
   padding: 0 70px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 70px;
+}
+
+.filter-result h2 {
+  margin-left: 0;
+  margin-right: auto;
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.sel-list {
+  position: relative;
+  width: 292px;
+  min-height: 49px;
+  align-self: center;
+  padding: 0 20px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  appearance: none;
+  -moz-appearance: none;
+}
+
+.sel-list:after {
+  content:'';
+  background: url("img/select-icon.png") no-repeat center;
+  position: absolute;
+  z-index: 10;
+  left: 20px;
+  width: 50%;
+  height: 50%;
+}
+
+.view {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+
+.view-item {
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+}
+
+.view-button {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+}
+
+.view-item .table {
+  background: url("img/View-icon.png") no-repeat center;
+}
+
+.view-item .big {
+  background: url("img/View-icon2.png") no-repeat center;
+}
+
+.view-item .list {
+  background: url("img/View-icon3.png") no-repeat center;
+}
+
+.view-item .selected {
+  border: 2px solid #000000;
 }
 
 .catalog-main {
