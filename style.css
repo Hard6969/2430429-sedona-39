@@ -569,7 +569,7 @@ main {
 .tooltip {
   position: relative;
   top: 0px;
-  left: 0px;
+  left: 0npmpx;
   width: 26px;
   height: 26px;
 }
